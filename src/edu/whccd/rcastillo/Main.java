@@ -7,14 +7,14 @@ import java.util.Scanner;
     author: Richard Castillo
  */
 
-public class InvoiceApp
+public class Main
 {
     public static void main(String[] args)
     {
         System.out.println("Welcome, I am your Invoice Calculator");
         System.out.println();   //print in blank line
 
-        Scanner sc = new Scanner(systen.in);
+        Scanner sc = new Scanner(System.in);
 
         // Perform invoice calculation until choice isn't equal to "y" or "Y"
         String choice = "y";
@@ -40,7 +40,7 @@ public class InvoiceApp
             String message = "Discount percent:  " + discountPercent + "\n"
                            + "Discount amount:   " + discountAmount  + "\n"
                            + "Discount total:    " + total + "\n";
-            System.out.println(messagge);
+            System.out.println(message);
 
             // see if the user wants to continue
             System.out.print("Continue? (y/n): ");
